@@ -1,0 +1,353 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    line-height: 75px;
+    padding: 0px 100px;
+    background-image: linear-gradient(#6394bd, #9a616f);
+}
+  /* nav .logo p{
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  color: white;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+} */
+
+span{
+  color:#de7185;
+
+}
+/* nav ul{
+  display: flex; 
+   justify-content: end;
+} */
+
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+/* navbar */
+nav li a{
+
+    font-size: 22px;
+    /* text-transform: uppercase; */
+    /* padding: 0px 30px ; */
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 190px;  
+    margin-top: 15px;
+   
+}
+/* first button */
+nav ul button{
+
+    float: right;
+    margin-top: 16px;
+    width: 120px;
+    height: 45px;
+    border-radius: 18px;
+    background-color: #4e77b9;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(250, 250, 250);
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;   
+}
+/* hover */
+nav button:hover{
+color: #ff8c69;
+transition: all 0.3s ease 0s;
+}
+nav li a:hover{
+color: #ff8c69;
+transition: all 0.2s ease 0s;
+}
+/* learn section */
+
+.learn{
+margin-top: 13%;
+}
+.learn h2{
+font-size: 60px;
+font-family: Rubik, sans-serif;
+}
+.learn p{
+    font-size: 22px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: Rubik, sans-serif;
+}
+
+.join{
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #6a80ce;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(250, 250, 250);
+    cursor: pointer;
+}
+/* first button */
+ .bn30{
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #f67c92;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: sans-serif;
+    height: 50px;
+    width: 120px;
+    }
+    /* first image */
+.image{
+    width: 60%;
+    height: 700px;
+    float: right;
+    margin-bottom:2%;
+    padding: 42px;
+}
+/*--Second image--*/
+.second {
+    width: 55%;
+    height: 550px;
+    margin-bottom:2%;
+}
+.para{
+float: right;
+font-size: 47px;
+margin-top: 4%;
+font-weight: bold;
+overflow: visible;
+line-height: 65px;
+font-family: Rubik, sans-serif;
+}
+.quotes{
+    font-size: 18px;
+    line-height: 35px;
+    float: right;
+    margin-top: 15%;
+    font-family: sans-serif;
+    color: #0e0e10;
+    font-family: Rubik, sans-serif;
+}
+/*--third section---*/
+
+.third{
+    text-align: center;
+    color: #011229;
+    font-size: 41px;
+    line-height: 63px;
+    letter-spacing: normal;
+    font-family: Rubik, sans-serif;
+}
+
+.feature{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+}
+.pic{
+justify-content:center ;
+padding-top: 60px;
+margin-left: 9%;
+line-height: 33px;
+}
+.pic h4{
+   
+    font-size: 20px;
+    font-weight: 400; 
+}
+.pic p{
+    font-size: 15px;
+    line-height: 18px;
+    color: #777;
+}
+.pic img{
+color: #011229;
+width: 110px;
+}
+/*-- button--*/
+ .feature-btn{
+    text-align: right;
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 10%;
+    margin-left: 35%;
+}
+.line{
+    line-height: 8px;
+}
+.line-1{
+    width: 15px;
+    height: 15px;
+    background-color: #f67c92;
+    display: inline-block;
+}
+.line-2{
+    width: 80px;
+    height: 1px;
+    background-color: #f67c92;
+    display: inline-block;
+}
+.line-3{
+
+    width: 60px;
+    height: 1px;
+    background-color: #f67c92;
+    display: inline-block;
+}
+/* third button */
+.common-btn{
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #db7386;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: sans-serif;
+    height: 60px;
+    width: 140px;
+}
+/* third image */
+.last img{
+    width: 65%;
+    height: 480px;
+    float: right;
+}
+/* contact */
+.contact-left-col{
+    flex-basis: 100%;
+    margin-top: 50px;
+}
+.contact-left-col h1{
+    font-size: 35px;
+    font-family: sans-serif;
+line-height: 40px;
+font-weight: bold;
+}
+form{
+max-width: 350px;
+margin: 30px 0;
+line-height: normal;
+}
+form input{
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid #fab3c4;   
+}
+.btn-box{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-box button{
+
+    flex-basis: 48%;
+    padding: 18px 0;
+}
+.line-4{
+        width: 100%;
+        height: 1px;
+        background-color: #a05e6f;
+        display: inline-block;
+        margin-top: 80px;
+    }
+/* footer */
+#footer{
+    line-height: 35px;
+    padding: 0 0 40px;
+}
+section {
+    display: block;
+}
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left-col {
+    flex-basis: 50%;
+    margin-top: 60px;
+}
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.link-title h4 {
+    font-size: 18px;
+    color: #d36a7d;
+    margin-bottom: 20px;
+}
+.link-title small {
+    font-size: 15px;
+    color: rgb(14, 14, 14);
+}
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.horizontal{
+    width: 1.5px;
+    background-color: #ae7b87;
+    height: 170px;
+    display: inline-block;
+    margin-left: 57%;
+}
+/* social media */
+.social-media{
+    /* display: flex; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* ............................ */
+/* .......Media quries......... */
+/* .......Media quries......... */
+/* ............................ */
+
+@media (max-width: 855px){
+    
+.image{
+    width: 60%;
+    height: 400px;
+    display: inline-block;
+    
+}
+.learn h2 {
+
+    font-size: 35px;
+}
+.second{
+    width: 55%;
+    height: 300px;
+}
+.pic{
+    justify-content:center ;
+    padding-top: 60px;
+    margin-left: 9%;
+    line-height: 33px;
+    }
+    .contact-left-col,h1{
+        margin-top:500px;
+    }
+    
+    
+}
